@@ -21,6 +21,7 @@ public class Median {
             median = ((array[(arrayLength) / 2 - 1]) + (array[arrayLength / 2])) / 2;
         }
 
+        // gibt den Median eines Arrays zurück
         return median;
 
     }
