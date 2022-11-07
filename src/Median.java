@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class Median {
 
-    public void median(int[] array) {
+    public int median (int[] array) {
 
         // Variable zur Speicherung des Median
         int median;
@@ -21,8 +21,7 @@ public class Median {
             median = ((array[(arrayLength) / 2 - 1]) + (array[arrayLength / 2])) / 2;
         }
 
-        // gibt den Median aus
-        System.out.println("Der Median ist " + median);
+        return median;
 
     }
 
