@@ -3,8 +3,8 @@ public class MedianTest {
     public static void main(String[] args) {
 
         // Testarrays
-        int[] array1 = {12, 16, 2, 63, 55, 8};
-        int[] array2 = {42, 7, 543, 77, 87, 876, 143};
+        int[] array1 = {12,16,2,63,55,8};
+        int[] array2 = {42,7,543,77,87,876,143};
 
         // Instanziierung eines neuen Median-Objektes
         Median median = new Median();

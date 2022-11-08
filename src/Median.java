@@ -4,6 +4,12 @@ public class Median {
 
     public int median (int[] array) {
 
+        // prüft das Array auf null-Referenzen und Leere und bricht die Ausführung ggf. ab
+        if (array == null || array.length == 0) {
+            System.out.println("Ein Array enthält keinen Wert.");
+            System.exit(0);
+        }
+
         // Variable zur Speicherung des Median
         int median;
 
